@@ -10,9 +10,25 @@ import UIKit
 
 class EventController: UIViewController {
 
+    
+    @IBOutlet weak var MessageBtn: UIButton!
+    @IBOutlet weak var ModifierBtn: UIButton!
+    @IBOutlet weak var PreviousEventBtn: UIButton!
+    @IBOutlet weak var NextEventBtn: UIButton!
+    
+    @IBOutlet weak var TitleLbl: UILabel!
+    @IBOutlet weak var DescriptionLbl: UILabel!
+    @IBOutlet weak var PriceRangeLbl: UILabel!
+    @IBOutlet weak var IsActiveSwitch: UISwitch!
+    @IBOutlet weak var ToDateLvl: UILabel!
+    @IBOutlet weak var FromDateLbl: UILabel!
+    @IBOutlet weak var OwnerNameLbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
     }
 

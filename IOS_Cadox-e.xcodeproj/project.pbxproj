@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B032B431FE5FC7E0039D65C /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B421FE5FC7E0039D65C /* EventController.swift */; settings = {ASSET_TAGS = (); }; };
-		9B032B451FE5FCCA0039D65C /* WishlistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B441FE5FCCA0039D65C /* WishlistController.swift */; settings = {ASSET_TAGS = (); }; };
-		9B032B471FE5FD030039D65C /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B461FE5FD030039D65C /* MessageController.swift */; settings = {ASSET_TAGS = (); }; };
-		9B032B491FE5FD490039D65C /* EditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B481FE5FD490039D65C /* EditController.swift */; settings = {ASSET_TAGS = (); }; };
-		9B032B4B1FE5FD6F0039D65C /* InviteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B4A1FE5FD6F0039D65C /* InviteController.swift */; settings = {ASSET_TAGS = (); }; };
+		9B032B431FE5FC7E0039D65C /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B421FE5FC7E0039D65C /* EventController.swift */; };
+		9B032B451FE5FCCA0039D65C /* WishlistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B441FE5FCCA0039D65C /* WishlistController.swift */; };
+		9B032B471FE5FD030039D65C /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B461FE5FD030039D65C /* MessageController.swift */; };
+		9B032B491FE5FD490039D65C /* EditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B481FE5FD490039D65C /* EditController.swift */; };
+		9B032B4B1FE5FD6F0039D65C /* InviteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B4A1FE5FD6F0039D65C /* InviteController.swift */; };
 		9B6943A71FDC6B3C00DC8A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6943A61FDC6B3C00DC8A6C /* AppDelegate.swift */; };
 		9B6943A91FDC6B3C00DC8A6C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6943A81FDC6B3C00DC8A6C /* MainController.swift */; };
 		9B6943AC1FDC6B3C00DC8A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6943AA1FDC6B3C00DC8A6C /* Main.storyboard */; };
@@ -20,8 +20,8 @@
 		9B6943B41FDC6B3C00DC8A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6943B21FDC6B3C00DC8A6C /* LaunchScreen.storyboard */; };
 		9B6943BF1FDC6B3C00DC8A6C /* IOS_Cadox_eTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6943BE1FDC6B3C00DC8A6C /* IOS_Cadox_eTests.swift */; };
 		9B6943CA1FDC6B3C00DC8A6C /* IOS_Cadox_eUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6943C91FDC6B3C00DC8A6C /* IOS_Cadox_eUITests.swift */; };
-		9BDF28011FE5ECC000BE4AF4 /* CreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF28001FE5ECC000BE4AF4 /* CreateController.swift */; settings = {ASSET_TAGS = (); }; };
-		9BDF28031FE5F5B800BE4AF4 /* JoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF28021FE5F5B800BE4AF4 /* JoinController.swift */; settings = {ASSET_TAGS = (); }; };
+		9BDF28011FE5ECC000BE4AF4 /* CreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF28001FE5ECC000BE4AF4 /* CreateController.swift */; };
+		9BDF28031FE5F5B800BE4AF4 /* JoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF28021FE5F5B800BE4AF4 /* JoinController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,7 +211,7 @@
 		9B69439B1FDC6B3C00DC8A6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "David Iannuzzi";
 				TargetAttributes = {
 					9B6943A21FDC6B3C00DC8A6C = {
@@ -359,8 +359,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -404,8 +406,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -424,6 +428,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
