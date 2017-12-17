@@ -10,9 +10,13 @@ import UIKit
 
 class EditController: UIViewController {
 
+    @IBOutlet weak var StartDatePicker: UIDatePicker!
+    @IBOutlet weak var EndDatePicker: UIDatePicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        StartDatePicker.datePickerMode = UIDatePickerMode.Date
+        EndDatePicker.datePickerMode = UIDatePickerMode.Date
         // Do any additional setup after loading the view.
     }
 
