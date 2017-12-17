@@ -17,17 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5x-Tv-n6Z">
-                                <rect key="frame" x="277" y="348" width="46" height="30"/>
+                                <rect key="frame" x="238" y="361" width="125" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Creer"/>
+                                <state key="normal" title="Creer votre pige"/>
                                 <connections>
                                     <segue destination="faJ-E7-TVU" kind="show" id="LTa-VT-Bqt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lg-6q-FJy">
-                                <rect key="frame" x="272" y="430" width="56" height="30"/>
+                                <rect key="frame" x="240" y="430" width="121" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Joindre"/>
+                                <state key="normal" title="Joindre une pige"/>
                                 <connections>
                                     <segue destination="tP4-Cs-ZVt" kind="showDetail" id="VKP-ID-pY9"/>
                                 </connections>
@@ -36,6 +36,13 @@
                                 <rect key="frame" x="266" y="133" width="68" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bienvenue a Cadox-e, l'application de choix pour tout vos piges de cadeaux." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHd-Nw-iJa">
+                                <rect key="frame" x="114" y="227" width="372" height="69"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -48,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="130" y="234"/>
         </scene>
-        <!--View Controller-->
+        <!--Join Controller-->
         <scene sceneID="huk-Er-fQk">
             <objects>
-                <viewController id="xPL-rt-Uui" sceneMemberID="viewController">
+                <viewController id="xPL-rt-Uui" customClass="JoinController" customModule="IOS_Cadox_e" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7aN-4Y-Xer"/>
                         <viewControllerLayoutGuide type="bottom" id="36B-ci-TOz"/>
@@ -61,20 +68,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joindre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIV-kC-zdV">
-                                <rect key="frame" x="269" y="57" width="63" height="21"/>
+                                <rect key="frame" x="268" y="72" width="63" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wd-FA-RhH">
-                                <rect key="frame" x="276" y="286" width="46" height="30"/>
+                                <rect key="frame" x="327" y="280" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="ok"/>
                                 <connections>
                                     <segue destination="Iih-f2-oDs" kind="show" id="g4f-6q-kbA"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DyA-eP-dGl">
+                                <rect key="frame" x="202" y="183" width="171" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AwC-lw-xbu">
+                                <rect key="frame" x="202" y="237" width="171" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -85,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="1660" y="645"/>
         </scene>
-        <!--View Controller-->
+        <!--Wishlist Controller-->
         <scene sceneID="Mqn-va-SAx">
             <objects>
-                <viewController id="x7t-Xb-WUa" sceneMemberID="viewController">
+                <viewController id="x7t-Xb-WUa" customClass="WishlistController" customModule="IOS_Cadox_e" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IRW-58-J9e"/>
                         <viewControllerLayoutGuide type="bottom" id="hVY-wa-GvC"/>
@@ -122,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="4246" y="711"/>
         </scene>
-        <!--View Controller-->
+        <!--Message Controller-->
         <scene sceneID="N3m-1u-UoQ">
             <objects>
-                <viewController id="CWS-Eb-MEW" sceneMemberID="viewController">
+                <viewController id="CWS-Eb-MEW" customClass="MessageController" customModule="IOS_Cadox_e" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U5w-RY-8MW"/>
                         <viewControllerLayoutGuide type="bottom" id="UEH-97-pRf"/>
@@ -159,10 +178,10 @@
             </objects>
             <point key="canvasLocation" x="1830" y="1661"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit Controller-->
         <scene sceneID="MGa-EB-Hh2">
             <objects>
-                <viewController id="iUL-0g-TLh" sceneMemberID="viewController">
+                <viewController id="iUL-0g-TLh" customClass="EditController" customModule="IOS_Cadox_e" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MV9-mA-3Qa"/>
                         <viewControllerLayoutGuide type="bottom" id="hrK-3a-zeH"/>
@@ -203,10 +222,10 @@
             </objects>
             <point key="canvasLocation" x="3146" y="-1251"/>
         </scene>
-        <!--View Controller-->
+        <!--Invite Controller-->
         <scene sceneID="T7P-ND-0gr">
             <objects>
-                <viewController id="rnn-1i-BMh" sceneMemberID="viewController">
+                <viewController id="rnn-1i-BMh" customClass="InviteController" customModule="IOS_Cadox_e" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CKw-1u-dcM"/>
                         <viewControllerLayoutGuide type="bottom" id="tvu-SV-xzo"/>
@@ -239,10 +258,10 @@
             </objects>
             <point key="canvasLocation" x="3853" y="-2008"/>
         </scene>
-        <!--View Controller-->
+        <!--Event Controller-->
         <scene sceneID="rGV-9U-wxX">
             <objects>
-                <viewController id="8RG-Sg-Sxx" sceneMemberID="viewController">
+                <viewController id="8RG-Sg-Sxx" customClass="EventController" customModule="IOS_Cadox_e" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wuF-Yb-rnS"/>
                         <viewControllerLayoutGuide type="bottom" id="yGd-YR-UP4"/>
@@ -251,13 +270,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izj-CQ-AiW">
-                                <rect key="frame" x="276" y="78" width="49" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJX-wg-TaG">
                                 <rect key="frame" x="267" y="273" width="66" height="30"/>
                                 <animations/>
@@ -274,6 +286,13 @@
                                     <segue destination="ahg-04-QHx" kind="show" id="QLx-PZ-Sbe"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izj-CQ-AiW">
+                                <rect key="frame" x="276" y="78" width="49" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -303,10 +322,10 @@
             </objects>
             <point key="canvasLocation" x="2558" y="-139"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Controller-->
         <scene sceneID="f35-u3-uAa">
             <objects>
-                <viewController id="6Gq-1k-a4X" sceneMemberID="viewController">
+                <viewController id="6Gq-1k-a4X" customClass="CreateController" customModule="IOS_Cadox_e" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iqR-wn-19g"/>
                         <viewControllerLayoutGuide type="bottom" id="D7d-W2-xgd"/>
@@ -316,25 +335,87 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Creer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5We-5E-w20">
-                                <rect key="frame" x="278" y="61" width="45" height="21"/>
+                                <rect key="frame" x="278" y="81" width="45" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVA-IZ-IIb">
-                                <rect key="frame" x="276" y="285" width="46" height="30"/>
+                                <rect key="frame" x="277" y="513" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="ok"/>
                                 <connections>
                                     <segue destination="Iih-f2-oDs" kind="show" id="ANu-Ga-VoQ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Titre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9bc-vi-Hus">
+                                <rect key="frame" x="20" y="131" width="223" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cfl-F5-h8F">
+                                <rect key="frame" x="20" y="169" width="560" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YUN-J5-WSs">
+                                <rect key="frame" x="20" y="207" width="269" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuK-z0-0Gl">
+                                <rect key="frame" x="297" y="207" width="283" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Budget" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ae-In-cjn">
+                                <rect key="frame" x="20" y="245" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="8C8-Zz-pyy">
+                                <rect key="frame" x="20" y="306" width="560" height="75"/>
+                                <animations/>
+                                <date key="date" timeIntervalSinceReferenceDate="535158636.62171">
+                                    <!--2017-12-16 23:10:36 +0000-->
+                                </date>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="NAP-SZ-2bB">
+                                <rect key="frame" x="20" y="414" width="560" height="75"/>
+                                <animations/>
+                                <date key="date" timeIntervalSinceReferenceDate="535158636.62171">
+                                    <!--2017-12-16 23:10:36 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date debut" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8u-F0-fRk">
+                                <rect key="frame" x="20" y="283" width="97" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date fin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XI3-da-G6I">
+                                <rect key="frame" x="20" y="389" width="76" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Uj-2s-1a3"/>
+                    <connections>
+                        <outlet property="EndDatePicker" destination="NAP-SZ-2bB" id="eXX-Vz-CXk"/>
+                        <outlet property="StartDatePicker" destination="8C8-Zz-pyy" id="tJP-fL-LII"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kKV-pL-870" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -481,12 +562,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qKP-FR-s0I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4978" y="1701"/>
+            <point key="canvasLocation" x="4944" y="1439"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RQH-zS-G4r"/>
         <segue reference="iB3-gv-g7A"/>
-        <segue reference="cF2-a5-fhm"/>
+        <segue reference="PY5-qd-0om"/>
+        <segue reference="p4f-6G-e9l"/>
     </inferredMetricsTieBreakers>
 </document>
