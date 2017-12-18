@@ -14,8 +14,8 @@ class CreateController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        StartDatePicker.datePickerMode = UIDatePickerMode.Date
-        EndDatePicker.datePickerMode = UIDatePickerMode.Date
+        StartDatePicker.datePickerMode = UIDatePickerMode.date
+        EndDatePicker.datePickerMode = UIDatePickerMode.date
         // Do any additional setup after loading the view.
     }
 

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B032B431FE5FC7E0039D65C /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B421FE5FC7E0039D65C /* EventController.swift */; settings = {ASSET_TAGS = (); }; };
-		9B032B451FE5FCCA0039D65C /* WishlistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B441FE5FCCA0039D65C /* WishlistController.swift */; settings = {ASSET_TAGS = (); }; };
-		9B032B471FE5FD030039D65C /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B461FE5FD030039D65C /* MessageController.swift */; settings = {ASSET_TAGS = (); }; };
-		9B032B491FE5FD490039D65C /* EditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B481FE5FD490039D65C /* EditController.swift */; settings = {ASSET_TAGS = (); }; };
-		9B032B4B1FE5FD6F0039D65C /* InviteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B4A1FE5FD6F0039D65C /* InviteController.swift */; settings = {ASSET_TAGS = (); }; };
+		847334FCEA44F25E21F8ACFB /* Pods_IOS_Cadox_e.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7721420ACA31B5669EB943 /* Pods_IOS_Cadox_e.framework */; };
+		9B032B431FE5FC7E0039D65C /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B421FE5FC7E0039D65C /* EventController.swift */; };
+		9B032B451FE5FCCA0039D65C /* WishlistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B441FE5FCCA0039D65C /* WishlistController.swift */; };
+		9B032B471FE5FD030039D65C /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B461FE5FD030039D65C /* MessageController.swift */; };
+		9B032B491FE5FD490039D65C /* EditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B481FE5FD490039D65C /* EditController.swift */; };
+		9B032B4B1FE5FD6F0039D65C /* InviteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B032B4A1FE5FD6F0039D65C /* InviteController.swift */; };
 		9B6943A71FDC6B3C00DC8A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6943A61FDC6B3C00DC8A6C /* AppDelegate.swift */; };
 		9B6943A91FDC6B3C00DC8A6C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6943A81FDC6B3C00DC8A6C /* MainController.swift */; };
 		9B6943AC1FDC6B3C00DC8A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6943AA1FDC6B3C00DC8A6C /* Main.storyboard */; };
@@ -20,8 +21,10 @@
 		9B6943B41FDC6B3C00DC8A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6943B21FDC6B3C00DC8A6C /* LaunchScreen.storyboard */; };
 		9B6943BF1FDC6B3C00DC8A6C /* IOS_Cadox_eTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6943BE1FDC6B3C00DC8A6C /* IOS_Cadox_eTests.swift */; };
 		9B6943CA1FDC6B3C00DC8A6C /* IOS_Cadox_eUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6943C91FDC6B3C00DC8A6C /* IOS_Cadox_eUITests.swift */; };
-		9BDF28011FE5ECC000BE4AF4 /* CreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF28001FE5ECC000BE4AF4 /* CreateController.swift */; settings = {ASSET_TAGS = (); }; };
-		9BDF28031FE5F5B800BE4AF4 /* JoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF28021FE5F5B800BE4AF4 /* JoinController.swift */; settings = {ASSET_TAGS = (); }; };
+		9BCF96E01FE71E6F002D0782 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF96DF1FE71E6F002D0782 /* GoogleService-Info.plist */; };
+		9BCF96E21FE71EC6002D0782 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF96E11FE71EC6002D0782 /* GoogleService-Info.plist */; };
+		9BDF28011FE5ECC000BE4AF4 /* CreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF28001FE5ECC000BE4AF4 /* CreateController.swift */; };
+		9BDF28031FE5F5B800BE4AF4 /* JoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF28021FE5F5B800BE4AF4 /* JoinController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B7721420ACA31B5669EB943 /* Pods_IOS_Cadox_e.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_Cadox_e.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B032B421FE5FC7E0039D65C /* EventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
 		9B032B441FE5FCCA0039D65C /* WishlistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishlistController.swift; sourceTree = "<group>"; };
 		9B032B461FE5FD030039D65C /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
@@ -61,8 +65,12 @@
 		9B6943C51FDC6B3C00DC8A6C /* IOS_Cadox-eUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS_Cadox-eUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6943C91FDC6B3C00DC8A6C /* IOS_Cadox_eUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Cadox_eUITests.swift; sourceTree = "<group>"; };
 		9B6943CB1FDC6B3C00DC8A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCF96DF1FE71E6F002D0782 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BCF96E11FE71EC6002D0782 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9BDF28001FE5ECC000BE4AF4 /* CreateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateController.swift; sourceTree = "<group>"; };
 		9BDF28021FE5F5B800BE4AF4 /* JoinController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinController.swift; sourceTree = "<group>"; };
+		B8516C3EABFF067C54EE21A1 /* Pods-IOS_Cadox-e.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_Cadox-e.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS_Cadox-e/Pods-IOS_Cadox-e.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E38B4D9165231DD23529E2 /* Pods-IOS_Cadox-e.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_Cadox-e.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS_Cadox-e/Pods-IOS_Cadox-e.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847334FCEA44F25E21F8ACFB /* Pods_IOS_Cadox_e.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,10 +102,13 @@
 		9B69439A1FDC6B3C00DC8A6C = {
 			isa = PBXGroup;
 			children = (
+				9BCF96E11FE71EC6002D0782 /* GoogleService-Info.plist */,
 				9B6943A51FDC6B3C00DC8A6C /* IOS_Cadox-e */,
 				9B6943BD1FDC6B3C00DC8A6C /* IOS_Cadox-eTests */,
 				9B6943C81FDC6B3C00DC8A6C /* IOS_Cadox-eUITests */,
 				9B6943A41FDC6B3C00DC8A6C /* Products */,
+				CD8261144BEF4FF455B344DA /* Pods */,
+				C178A9D19E99CC305087A5EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +125,8 @@
 		9B6943A51FDC6B3C00DC8A6C /* IOS_Cadox-e */ = {
 			isa = PBXGroup;
 			children = (
+				9BCF96DF1FE71E6F002D0782 /* GoogleService-Info.plist */,
+				9BE52FF41FE6B9810023F5D0 /* Config */,
 				9B6943A61FDC6B3C00DC8A6C /* AppDelegate.swift */,
 				9B6943A81FDC6B3C00DC8A6C /* MainController.swift */,
 				9BDF28001FE5ECC000BE4AF4 /* CreateController.swift */,
@@ -149,6 +163,30 @@
 			path = "IOS_Cadox-eUITests";
 			sourceTree = "<group>";
 		};
+		9BE52FF41FE6B9810023F5D0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		C178A9D19E99CC305087A5EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7721420ACA31B5669EB943 /* Pods_IOS_Cadox_e.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD8261144BEF4FF455B344DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8516C3EABFF067C54EE21A1 /* Pods-IOS_Cadox-e.debug.xcconfig */,
+				F7E38B4D9165231DD23529E2 /* Pods-IOS_Cadox-e.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B6943CE1FDC6B3C00DC8A6C /* Build configuration list for PBXNativeTarget "IOS_Cadox-e" */;
 			buildPhases = (
+				8B0926652709474E4B6A0A30 /* [CP] Check Pods Manifest.lock */,
 				9B69439F1FDC6B3C00DC8A6C /* Sources */,
 				9B6943A01FDC6B3C00DC8A6C /* Frameworks */,
 				9B6943A11FDC6B3C00DC8A6C /* Resources */,
+				C12EFA77E26020A4907A70E4 /* [CP] Embed Pods Frameworks */,
+				1CC3DEE9102EA84272B98901 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,18 +252,21 @@
 		9B69439B1FDC6B3C00DC8A6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "David Iannuzzi";
 				TargetAttributes = {
 					9B6943A21FDC6B3C00DC8A6C = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					9B6943B91FDC6B3C00DC8A6C = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9B6943A21FDC6B3C00DC8A6C;
 					};
 					9B6943C41FDC6B3C00DC8A6C = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9B6943A21FDC6B3C00DC8A6C;
 					};
 				};
@@ -253,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B6943B41FDC6B3C00DC8A6C /* LaunchScreen.storyboard in Resources */,
+				9BCF96E01FE71E6F002D0782 /* GoogleService-Info.plist in Resources */,
+				9BCF96E21FE71EC6002D0782 /* GoogleService-Info.plist in Resources */,
 				9B6943B11FDC6B3C00DC8A6C /* Assets.xcassets in Resources */,
 				9B6943AC1FDC6B3C00DC8A6C /* Main.storyboard in Resources */,
 			);
@@ -273,6 +319,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CC3DEE9102EA84272B98901 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOS_Cadox-e/Pods-IOS_Cadox-e-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS_Cadox-e/Pods-IOS_Cadox-e-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0926652709474E4B6A0A30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOS_Cadox-e-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C12EFA77E26020A4907A70E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOS_Cadox-e/Pods-IOS_Cadox-e-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS_Cadox-e/Pods-IOS_Cadox-e-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B69439F1FDC6B3C00DC8A6C /* Sources */ = {
@@ -356,8 +465,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -401,8 +512,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -421,6 +534,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -428,23 +542,27 @@
 		};
 		9B6943CF1FDC6B3C00DC8A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8516C3EABFF067C54EE21A1 /* Pods-IOS_Cadox-e.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IOS_Cadox-e/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "colval.IOS-Cadox-e";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9B6943D01FDC6B3C00DC8A6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E38B4D9165231DD23529E2 /* Pods-IOS_Cadox-e.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IOS_Cadox-e/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "colval.IOS-Cadox-e";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -456,6 +574,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "colval.IOS-Cadox-eTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS_Cadox-e.app/IOS_Cadox-e";
 			};
 			name = Debug;
@@ -468,6 +587,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "colval.IOS-Cadox-eTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS_Cadox-e.app/IOS_Cadox-e";
 			};
 			name = Release;
@@ -479,6 +599,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "colval.IOS-Cadox-eUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "IOS_Cadox-e";
 				USES_XCTRUNNER = YES;
 			};
@@ -491,6 +612,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "colval.IOS-Cadox-eUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "IOS_Cadox-e";
 				USES_XCTRUNNER = YES;
 			};
